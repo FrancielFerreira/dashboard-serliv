@@ -17,6 +17,10 @@ body{
     display: flex;
 }
 
+a {
+    text-decoration: none;
+}
+
 .topnav-menu, .menu{
     margin: 0;
     padding: 0;
@@ -25,7 +29,6 @@ body{
 
 .menus{
     padding: var(--default-pad);
-    
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -39,6 +42,8 @@ body{
 
 .mainnav > a{
     padding-left: var(--default-pad);
+    font-size: 1.25rem;
+    font-weight: 600;
 }
 
 .main-content{
