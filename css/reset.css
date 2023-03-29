@@ -1,0 +1,28 @@
+:root {
+  --primary-color: #004dda;
+  --dark: #5a5a5f;
+  --light: #f5f5f5;
+  --black: #111;
+  --white: #fff;
+  --default-pad: 2.5rem;
+  --medium-pad: calc(var(--default-pad) / 2);
+  --small-pad: calc(var(--default-pad) / 4);
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: currentColor;
+  font: 400 1rem/1.25 "Fira Sans", sans-serif;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}

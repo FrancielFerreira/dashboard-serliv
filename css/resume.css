@@ -1,0 +1,16 @@
+.resume {
+  background-color: var(--white);
+  padding: var(--medium-pad);
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.resume > div {
+  flex: 1;
+}
+
+.resume .see-more {
+  background-color: var(--primary-color);
+  color: var(--white);
+}

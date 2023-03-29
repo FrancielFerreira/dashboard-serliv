@@ -1,4 +1,8 @@
-:root{
+@import './css/reset.css';
+@import './css/sidenav.css';
+@import './css/topnav.css';
+@import './css/resume.css';
+/* :root{
     --primary-color: #004dda;
     --dark: #5a5a5f;
     --light: #fff;
@@ -66,4 +70,4 @@ a {
 
 main{
     padding: var(--default-pad);
-}
+} */

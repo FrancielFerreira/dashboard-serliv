@@ -20,37 +20,44 @@
 </head>
 
 <body>
-  <nav class="mainnav">
-    <a href="#">Dashboard</a>
-    <div class="menus">
-      <ul class="menu">
-        <li><a href="#"><i class="bi bi-house-door"></i> Dashboard</a></li>
-        <li><a href="#"><i class="bi bi-megaphone"></i> Announced</a></li>
-        <li><a href="#"><i class="bi bi-terminal"></i> Preparation</a></li>
-        <li><a href="#"><i class="bi bi-list-check"></i> Sorted</a></li>
-        <li><a href="#"><i class="bi bi-truck"></i> Distributed</a></li>
-      </ul>
+  <div class="dashboard">
 
-      <ul class="menu">
-        <li><a href="#"><i class="bi bi-power"></i> Logout</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <div class="main-content">
-    <header class="topnav">
-      <nav>
-        <ul class="topnav-menu">
-          <li><a href="#"><i class="bi bi-person"></i> Profile</a></li>
-          <li><a href="#"><i class="bi bi-gear"></i> Settings</a></li>
+    <header class="header__sidenav">
+      <nav class="sidenav">
+        <a href="#">Dashboard</a>
+        <ul class="sidenav__menu">
+          <li class="sidenav__menu-item"><a href="#"><i class="bi bi-house-door"></i>Dashboard</a></li>
+          <li class="sidenav__menu-item"><a href="#"><i class="bi bi-megaphone"></i>Announced</a></li>
+          <li class="sidenav__menu-item"><a href="#"><i class="bi bi-terminal"></i>Preparation</a></li>
+          <li class="sidenav__menu-item"><a href="#"><i class="bi bi-list-check"></i>Sorted</a></li>
+          <li class="sidenav__menu-item"><a href="#"><i class="bi bi-truck"></i>Distributed</a></li>
+          <li class="sidenav__menu-item menu__logout"><a href="#"><i class="bi bi-power"></i>Logout</a></li>
         </ul>
       </nav>
-      <section class="perfil"> perfil </section>
     </header>
 
-    <main>
-      main
-    </main>
+    <div class="main-content">
+
+      <header class="header__topnav">
+        <nav class="topnav">
+          <ul class="topnav-menu">
+            <li><a href="#"><i class="bi bi-person"></i> Profile</a></li>
+            <li><a href="#"><i class="bi bi-gear"></i> Settings</a></li>
+          </ul>
+        </nav>
+        <section class="perfil"> perfil </section>
+      </header>
+
+      <main>
+        <div class="resume">
+          <div>Announced Today <span>235600</span></div>
+          <div>Prepared Today <span>16738</span></div>
+          <div>Started Today <span>280</span></div>
+          <div class="see-more">See More</div>
+        </div>
+        main
+      </main>
+    </div>
   </div>
 </body>
 

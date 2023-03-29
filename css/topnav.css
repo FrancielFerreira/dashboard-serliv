@@ -1,0 +1,17 @@
+.header__topnav {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--medium-pad);
+  background-color: var(--white);
+}
+
+.topnav-menu {
+  display: flex;
+  gap: 20px;
+}
+
+main {
+  background-color: var(--light);
+  height: calc(100% - 140px);
+  padding: var(--default-pad);
+}

@@ -1,0 +1,64 @@
+.dashboard {
+  display: grid;
+  grid-template-columns: minmax(160px, 200px) 1fr;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.header__sidenav {
+  background: #fff;
+  box-shadow: 2px 0 4px rgb(0 0 0 / 8%);
+  z-index: 1;
+}
+
+.sidenav {
+  padding: var(--medium-pad);
+  color: var(--black);
+  position: relative;
+  height: calc(100% - var(--default-pad));
+}
+
+.sidenav > a {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.sidenav__menu {
+  padding-top: var(--default-pad);
+  border-bottom: 2px solid var(--light);
+}
+
+.sidenav__menu li a {
+  padding: var(--small-pad) 0;
+  position: relative;
+}
+
+.sidenav__menu li a::after {
+  content: "";
+  width: 2px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: var(--black);
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate3d(0, -50%, 0);
+  opacity: 0;
+  transition: .3s;
+}
+
+.sidenav__menu li a:hover:after {
+  opacity: 1;
+  width: 32px;
+}
+
+.sidenav__menu li a i {
+  padding-right: var(--small-pad);
+}
+
+.sidenav .menu__logout {
+  position: absolute;
+  bottom: 20px;
+  width: calc(100% - var(--default-pad));
+}
