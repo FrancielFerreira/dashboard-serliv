@@ -2,6 +2,9 @@
 @import './css/sidenav.css';
 @import './css/topnav.css';
 @import './css/resume.css';
+@import './css/main.css';
+
+
 /* :root{
     --primary-color: #004dda;
     --dark: #5a5a5f;

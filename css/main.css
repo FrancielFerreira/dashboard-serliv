@@ -1,0 +1,24 @@
+
+main {
+  background-color: var(--light);
+  height: calc(100% - 140px);
+  padding: var(--default-pad);
+  display: grid;
+  gap: 20px;
+}
+
+.main-content picture {
+  background-color: var(--white);
+  border-radius: 8px;
+}
+
+.main-content picture img {
+  width: 100%;
+}
+
+.main-content div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: var(--default-pad);
+}

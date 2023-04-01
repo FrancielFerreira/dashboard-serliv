@@ -9,9 +9,3 @@
   display: flex;
   gap: 20px;
 }
-
-main {
-  background-color: var(--light);
-  height: calc(100% - 140px);
-  padding: var(--default-pad);
-}
